@@ -50,3 +50,6 @@ Temporary Items
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,linux
 
+### Secrets ###
+# credentials storage
+secrets/

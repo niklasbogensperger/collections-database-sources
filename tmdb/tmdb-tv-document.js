@@ -13,7 +13,7 @@ builder.setString(tvShow.name, "name");
 builder.setString(tvShow.originalName(), "original-name");
 builder.setImage(tvShow.requestPoster(), "poster");
 builder.setDate(tvShow.firstAirDate, "air-date");
-builder.setManagedDocuments(tvShow.seasons, "seasons");
+// builder.setManagedDocuments(tvShow.seasons, "seasons");
 builder.setDocuments(tvShow.genresAsDocuments(), "genres");
 builder.setString(tvShow.overview, "synopsis");
 builder.setDocuments(tvShow.actors(10), "actors");
